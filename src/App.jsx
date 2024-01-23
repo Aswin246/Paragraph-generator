@@ -1,15 +1,13 @@
-import { RecoilRoot } from "recoil";
-import "./App.css";
+// App.jsx
+import React from "react";
 import { Paragraph } from "./paragraph";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <RecoilRoot>
-        <Paragraph />
-      </RecoilRoot>
-    </>
+    <div>
+      <Paragraph />
+    </div>
   );
-}
+};
 
 export default App;
